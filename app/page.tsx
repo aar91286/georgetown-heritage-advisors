@@ -36,7 +36,7 @@ export default function Home() {
            disciplined due diligence, and trusted counsel.
          </p>
          <div className="hero-buttons">
-           <a className="primary-button">Schedule a Consultation</a>
+           <a className="primary-button" href="/consultation">Schedule a Consultation</a>
            <a className="secondary-button">Read the Founder’s Letter</a>
          </div>
        </div>
