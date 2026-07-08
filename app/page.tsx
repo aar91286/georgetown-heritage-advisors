@@ -4,7 +4,11 @@ export default function Home() {
      <section className="hero">
        <nav className="nav">
          <div className="brand">
-           <div className="crest">GHA</div>
+           <img 
+  className="crest-image" 
+  src="/images/gha-crest.png" 
+  alt="Georgetown Heritage Advisors crest"
+/>
            <div>
              <p className="brand-name">Georgetown Heritage Advisors</p>
              <p className="brand-sub">Independent Automobile Advisory</p>
@@ -49,20 +53,39 @@ export default function Home() {
        </p>
      </section>
 
-     <section className="section cards">
-       <div className="card">
-         <h3>Representation</h3>
-         <p>Independent counsel with no dealer inventory, no sales pressure, and no divided loyalty.</p>
-       </div>
-       <div className="card">
-         <h3>Due Diligence</h3>
-         <p>Market research, history review, seller conversations, inspection coordination, and analysis.</p>
-       </div>
-       <div className="card">
-         <h3>Acquisition</h3>
-         <p>Professional guidance through negotiation, documentation, transport, delivery, and stewardship.</p>
-       </div>
-     </section>
+<section className="section cards">
+
+  <div className="card">
+    <img src="/images/research-interior.jpg" />
+    <span>01</span>
+    <h3>Research & Due Diligence</h3>
+    <p>
+      Market intelligence, ownership history, documentation review,
+      inspection coordination, and expert analysis before acquisition.
+    </p>
+  </div>
+
+  <div className="card">
+    <img src="/images/negotiation-interior.jpg" />
+    <span>02</span>
+    <h3>Negotiation & Representation</h3>
+    <p>
+      Professional representation designed to protect your interests,
+      preserve discretion, and secure exceptional automobiles.
+    </p>
+  </div>
+
+  <div className="card">
+    <img src="/images/delivery-trailer.jpg" />
+    <span>03</span>
+    <h3>Delivery & Stewardship</h3>
+    <p>
+      Guidance through purchase completion, transport coordination,
+      delivery, and the beginning of ownership.
+    </p>
+  </div>
+
+</section>
 
      <section className="quote">
        <p>Trust is our only inventory.</p>
