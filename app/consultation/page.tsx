@@ -21,24 +21,47 @@ export default function Consultation() {
       </section>
 
 
-      <form className="consultation-form">
+<form
+  className="consultation-form"
+  action="https://formspree.io/f/mykqqeyp"
+  method="POST"
+>
 
-        <input placeholder="Full Name" />
+<input 
+  name="name" 
+  placeholder="Full Name" 
+/>
 
-        <input placeholder="Email Address" />
+<input 
+  name="email" 
+  type="email"
+  placeholder="Email Address" 
+/>
 
-        <input placeholder="Phone Number" />
+<input 
+  name="phone" 
+  placeholder="Phone Number" 
+/>
 
-        <input placeholder="Automobile(s) of Interest" />
+<input 
+  name="automobile" 
+  placeholder="Automobile(s) of Interest" 
+/>
 
-        <input placeholder="Desired Timeline" />
+<input 
+  name="timeline" 
+  placeholder="Desired Timeline" 
+/>
 
-        <input placeholder="Approximate Budget Range" />
+<input 
+  name="budget" 
+  placeholder="Approximate Budget Range" 
+/>
 
-
-        <textarea 
-          placeholder="Tell us about the automobile you are pursuing."
-        />
+<textarea 
+  name="message"
+  placeholder="Tell us about the automobile you are pursuing."
+/>
 
 
         <button>
