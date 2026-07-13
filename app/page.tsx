@@ -1,124 +1,137 @@
 export default function Home() {
- return (
-   <main>
-     <section className="hero">
-       <nav className="nav">
-         <div className="brand">
-           <img 
-  className="crest-image" 
-  src="/images/gha-crest.png" 
-  alt="Georgetown Heritage Advisors crest"
-/>
-           <div>
-             <p className="brand-name">Georgetown Heritage Advisors</p>
-             <p className="brand-sub">Independent Automobile Advisory</p>
-           </div>
-         </div>
+  return (
+    <main>
+      <section className="hero">
+        <nav className="nav">
+          <div className="brand">
+            <img
+              className="crest-image"
+              src="/images/gha-crest.png"
+              alt="Georgetown Heritage Advisors crest"
+            />
 
-         <div className="nav-links">
-           <a>Our Heritage</a>
-           <a>Advisory Services</a>
-           <a>The Method</a>
-           <a>Insights</a>
-         </div>
-       </nav>
+            <div>
+              <p className="brand-name">Georgetown Heritage Advisors</p>
+              <p className="brand-sub">
+                Independent Automobile Advisory
+              </p>
+            </div>
+          </div>
 
-<div className="hero-content">
-  <p className="eyebrow">
-    Independent Counsel for Exceptional Automobile Acquisitions
-  </p>
+          <div className="nav-links">
+            <a>Our Heritage</a>
+            <a>Advisory Services</a>
+            <a>The Method</a>
+            <a>Insights</a>
+          </div>
+        </nav>
 
-<h1>
-  Representing Extraordinary Automobiles.
-  <br />
-  Advising Extraordinary People.
-</h1>
+        <div className="hero-content">
+          <p className="eyebrow">
+            Independent Counsel for Exceptional Automobile Acquisitions
+          </p>
 
-<p className="hero-subtext">
-  Georgetown Heritage Advisors represents discerning clients in the acquisition
-  of enthusiast, luxury, and collector automobiles through thoughtful research,
-  disciplined due diligence, and trusted counsel.
-</p>
-</div>
+          <h1>
+            Representing Extraordinary Automobiles.
+            <br />
+            Advising Extraordinary People.
+          </h1>
 
-<div className="hero-buttons">
-  <a className="primary-button" href="/consultation">
-    Schedule a Consultation
-  </a>
+          <p className="hero-subtext">
+            Georgetown Heritage Advisors represents discerning clients in the
+            acquisition of enthusiast, luxury, and collector automobiles
+            through thoughtful research, disciplined due diligence, and
+            trusted counsel.
+          </p>
+        </div>
 
-<a className="secondary-button" href="/founder">
-  Read the Founder’s Letter
-</a>
-</div>
-     </section>
+        <div className="hero-buttons">
+          <a className="primary-button" href="/consultation">
+            Schedule a Consultation
+          </a>
 
-<section className="section philosophy">
-  <div className="philosophy-text">
-    <p className="section-label">
-      OUR HERITAGE
-    </p>
+          <a className="secondary-button" href="/founder">
+            Read the Founder&apos;s Letter
+          </a>
+        </div>
+      </section>
 
-    <h2>
-      Extraordinary automobiles deserve more than transactions.
-    </h2>
+      <section className="section philosophy">
+        <div className="philosophy-text">
+          <p className="section-label">OUR HERITAGE</p>
 
-    <p>
-      They deserve thoughtful representation. We do not sell inventory.
-      We serve clients. Our role is to protect judgment, preserve confidence,
-      and guide meaningful automotive decisions with the care expected of a
-      professional advisory firm.
-    </p>
-  </div>
+          <h2>
+            Extraordinary automobiles deserve more than transactions.
+          </h2>
 
-  <img
-    className="philosophy-crest"
-    src="/images/gha-crest.png"
-    alt="Georgetown Heritage Advisors crest"
-  />
-</section>
+          <p>
+            They deserve thoughtful representation. We do not sell inventory.
+            We serve clients. Our role is to protect judgment, preserve
+            confidence, and guide meaningful automotive decisions with the care
+            expected of a professional advisory firm.
+          </p>
+        </div>
 
-<section className="section cards">
+        <img
+          className="philosophy-crest"
+          src="/images/gha-crest.png"
+          alt="Georgetown Heritage Advisors crest"
+        />
+      </section>
 
-  <div className="card">
-    <img src="/images/TR.png" />
-    <span>01</span>
-    <h3>Research & Due Diligence</h3>
-    <p>
-      Market intelligence, ownership history, documentation review,
-      inspection coordination, and expert analysis before acquisition.
-    </p>
-  </div>
+      <section className="section cards">
+        <div className="card">
+          <img
+            src="/images/TR.png"
+            alt="Ferrari Testarossa"
+          />
+          <span>01</span>
+          <h3>Research &amp; Due Diligence</h3>
+          <p>
+            Market intelligence, ownership history, documentation review,
+            inspection coordination, and expert analysis before acquisition.
+          </p>
+        </div>
 
-  <div className="card">
-    <img src="/images/sec.png" />
-    <span>02</span>
-    <h3>Negotiation & Representation</h3>
-    <p>
-      Professional representation designed to protect your interests,
-      preserve discretion, and secure exceptional automobiles.
-    </p>
-  </div>
+        <div className="card">
+          <img
+            src="/images/SEC.png"
+            alt="Mercedes-Benz 560 SEC"
+          />
+          <span>02</span>
+          <h3>Negotiation &amp; Representation</h3>
+          <p>
+            Professional representation designed to protect your interests,
+            preserve discretion, and secure exceptional automobiles.
+          </p>
+        </div>
 
-  <div className="card">
-    <img src="/images/lambo.png" />
-    <span>03</span>
-    <h3>Delivery & Stewardship</h3>
-    <p>
-      Guidance through purchase completion, transport coordination,
-      delivery, and the beginning of ownership.
-    </p>
-  </div>
+        <div className="card">
+          <img
+            src="/images/Lambo.png"
+            alt="Lamborghini Countach"
+          />
+          <span>03</span>
+          <h3>Delivery &amp; Stewardship</h3>
+          <p>
+            Guidance through purchase completion, transport coordination,
+            delivery, and the beginning of ownership.
+          </p>
+        </div>
+      </section>
 
-</section>
+      <section className="quote">
+        <p>Trust is our only inventory.</p>
+      </section>
 
-     <section className="quote">
-       <p>Trust is our only inventory.</p>
-     </section>
+      <footer>
+        <p>Georgetown Heritage Advisors</p>
 
-     <footer>
-       <p>Georgetown Heritage Advisors</p>
-       <span>Representing Extraordinary Automobiles. Advising Extraordinary People.</span>
-     </footer>
-   </main>
- );
+        <span>
+          Representing Extraordinary Automobiles. Advising Extraordinary
+          People.
+        </span>
+      </footer>
+    </main>
+  );
 }
