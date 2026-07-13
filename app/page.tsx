@@ -46,9 +46,9 @@ export default function Home() {
     Schedule a Consultation
   </a>
 
-  <a className="secondary-button">
-    Read the Founder’s Letter
-  </a>
+<a className="secondary-button" href="/founder">
+  Read the Founder’s Letter
+</a>
 </div>
      </section>
 
@@ -80,7 +80,7 @@ export default function Home() {
 <section className="section cards">
 
   <div className="card">
-    <img src="/images/research-interior.jpg" />
+    <img src="/images/TR.png" />
     <span>01</span>
     <h3>Research & Due Diligence</h3>
     <p>
@@ -90,7 +90,7 @@ export default function Home() {
   </div>
 
   <div className="card">
-    <img src="/images/negotiation-interior.jpg" />
+    <img src="/images/sec.png" />
     <span>02</span>
     <h3>Negotiation & Representation</h3>
     <p>
@@ -100,7 +100,7 @@ export default function Home() {
   </div>
 
   <div className="card">
-    <img src="/images/delivery-trailer.jpg" />
+    <img src="/images/lambo.png" />
     <span>03</span>
     <h3>Delivery & Stewardship</h3>
     <p>
