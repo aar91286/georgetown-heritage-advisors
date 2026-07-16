@@ -1,137 +1,157 @@
-export default function Home() {
+export default function FounderPage() {
   return (
-    <main>
-      <section className="hero">
-        <nav className="nav">
-          <div className="brand">
-            <img
-              className="crest-image"
-              src="/images/gha-crest.png"
-              alt="Georgetown Heritage Advisors crest"
-            />
+    <main className="founder-page">
+      <section className="founder-letter">
 
-            <div>
-              <p className="brand-name">Georgetown Heritage Advisors</p>
-              <p className="brand-sub">
-                Independent Automobile Advisory
-              </p>
-            </div>
-          </div>
+        <p className="eyebrow">
+          A Letter From the Founder
+        </p>
 
-          <div className="nav-links">
-            <a>Our Heritage</a>
-            <a>Advisory Services</a>
-            <a>The Method</a>
-            <a>Insights</a>
-          </div>
-        </nav>
-
-        <div className="hero-content">
-          <p className="eyebrow">
-            Independent Counsel for Exceptional Automobile Acquisitions
-          </p>
-
-          <h1>
-            Representing Extraordinary Automobiles.
-            <br />
-            Advising Extraordinary People.
-          </h1>
-
-          <p className="hero-subtext">
-            Georgetown Heritage Advisors represents discerning clients in the
-            acquisition of enthusiast, luxury, and collector automobiles
-            through thoughtful research, disciplined due diligence, and
-            trusted counsel.
-          </p>
-        </div>
-
-        <div className="hero-buttons">
-          <a className="primary-button" href="/consultation">
-            Schedule a Consultation
-          </a>
-
-          <a className="secondary-button" href="/founder">
-            Read the Founder&apos;s Letter
-          </a>
-        </div>
-      </section>
-
-      <section className="section philosophy">
-        <div className="philosophy-text">
-          <p className="section-label">OUR HERITAGE</p>
-
-          <h2>
-            Extraordinary automobiles deserve more than transactions.
-          </h2>
-
-          <p>
-            They deserve thoughtful representation. We do not sell inventory.
-            We serve clients. Our role is to protect judgment, preserve
-            confidence, and guide meaningful automotive decisions with the care
-            expected of a professional advisory firm.
-          </p>
-        </div>
+        <h1>
+          The pursuit of an exceptional automobile has never been simply about
+          transportation.
+        </h1>
 
         <img
-          className="philosophy-crest"
-          src="/images/gha-crest.png"
-          alt="Georgetown Heritage Advisors crest"
+          className="founder-hero"
+          src="/images/daytona-hero.jpeg"
+          alt="Ferrari 365 GTB/4 Daytona"
         />
-      </section>
 
-      <section className="section cards">
-        <div className="card">
-          <img
-            src="/images/TR.png"
-            alt="Ferrari Testarossa"
-          />
-          <span>01</span>
-          <h3>Research &amp; Due Diligence</h3>
+        <div className="founder-copy">
+
           <p>
-            Market intelligence, ownership history, documentation review,
-            inspection coordination, and expert analysis before acquisition.
+            I've had a lifelong passion for automobiles that traces back to my
+            earliest memories.
           </p>
+
+          <p>
+            I like to think it began with my father and his car. Seeing his grey
+            BMW in the driveway as a little boy, taking rides to the beach and
+            around town while a Tears for Fears greatest hits cassette provided
+            the soundtrack, remains one of those memories that has never faded.
+          </p>
+
+          <p>
+            Over the years, I've come to appreciate that acquiring an
+            exceptional automobile is about far more than purchasing
+            transportation or a utilitarian object. It is about preserving
+            history, honoring engineering, becoming the next steward of
+            something worthy of being cared for, and finding a tangible
+            embodiment of dreams, memories, and emotion.
+          </p>
+
+          <p>
+            Today's collector automobile market offers extraordinary
+            opportunities, but it also demands extraordinary discipline. While
+            information is abundant, true insight is rare. A beautiful
+            photograph cannot reveal deferred maintenance, and an enthusiastic
+            seller cannot replace objective due diligence.
+          </p>
+
+          <p>
+            Extraordinary automobiles deserve more than transactions.
+          </p>
+
+          <p>
+            They deserve thoughtful representation.
+          </p>
+
+          <p>
+            We do not sell inventory.
+          </p>
+
+          <p>
+            We serve clients.
+          </p>
+
+          <p>
+            Our responsibility is to protect judgment, preserve confidence, and
+            guide meaningful automotive decisions with the care expected of a
+            boutique professional advisory firm.
+          </p>
+
+          <p>
+            The name <strong>Georgetown Heritage Advisors</strong> was chosen
+            intentionally.
+          </p>
+
+          <p>
+            <strong>Georgetown</strong> reflects the education that helped shape
+            how I think about business, relationships, and responsibility.
+          </p>
+
+          <p>
+            <strong>Heritage</strong> reflects something even more important.
+          </p>
+
+          <p>
+            Great automobiles connect generations. They carry stories,
+            craftsmanship, and design philosophies that deserve to endure long
+            after their original production ends. They remind us that excellence
+            is rarely accidental and that lasting value is built through
+            patience, integrity, and uncompromising standards.
+          </p>
+
+          <p>
+            Those same principles guide every recommendation we make.
+          </p>
+
+          <p>
+            Whether assisting a client in acquiring a first enthusiast
+            automobile or locating a once-in-a-lifetime collector car, my
+            approach remains the same.
+          </p>
+
+          <div className="founder-principles">
+            <p>Listen First.</p>
+            <p>Research Thoroughly.</p>
+            <p>Question Assumptions.</p>
+            <p>Trust but Verify.</p>
+          </div>
+
+          <p>
+            I believe trust is earned through preparation, honesty, and an
+            unwavering commitment to acting in the client's best interest. That
+            commitment extends well beyond the day an automobile is purchased.
+          </p>
+
+          <p>
+            The relationships I hope to build are measured in years—not
+            transactions.
+          </p>
+
+          <p>
+            My hope is that my clients become more than business relationships.
+            I hope they become friends.
+          </p>
+
+          <p>
+            Thank you for visiting Georgetown Heritage Advisors.
+          </p>
+
+          <p>
+            It would be a privilege to represent you in the acquisition of an
+            extraordinary automobile.
+          </p>
+
+          <div className="founder-signature">
+            <p>Alan A. Rubino</p>
+            <span>Founder and CEO · Georgetown Heritage Advisors</span>
+          </div>
+
+          <div className="founder-buttons">
+            <a
+              className="primary-button"
+              href="/consultation#consultation-form"
+            >
+              Begin a Conversation
+            </a>
+          </div>
+
         </div>
 
-        <div className="card">
-          <img
-            src="/images/SEC.png"
-            alt="Mercedes-Benz 560 SEC"
-          />
-          <span>02</span>
-          <h3>Negotiation &amp; Representation</h3>
-          <p>
-            Professional representation designed to protect your interests,
-            preserve discretion, and secure exceptional automobiles.
-          </p>
-        </div>
-
-        <div className="card">
-          <img
-            src="/images/Lambo.png"
-            alt="Lamborghini Countach"
-          />
-          <span>03</span>
-          <h3>Delivery &amp; Stewardship</h3>
-          <p>
-            Guidance through purchase completion, transport coordination,
-            delivery, and the beginning of ownership.
-          </p>
-        </div>
       </section>
-
-      <section className="quote">
-        <p>Trust is our only inventory.</p>
-      </section>
-
-      <footer>
-        <p>Georgetown Heritage Advisors</p>
-
-        <span>
-          Representing Extraordinary Automobiles. Advising Extraordinary
-          People.
-        </span>
-      </footer>
     </main>
   );
 }

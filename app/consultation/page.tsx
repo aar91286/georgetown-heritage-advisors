@@ -22,6 +22,7 @@ export default function Consultation() {
 
 
 <form
+  id="consultation-form"
   className="consultation-form"
   action="https://formspree.io/f/mykqqeyp"
   method="POST"
