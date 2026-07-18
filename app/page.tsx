@@ -26,13 +26,6 @@ export default function FounderPage() {
           </p>
 
           <p>
-            I like to think it began with my father and his car. Seeing his grey
-            BMW in the driveway as a little boy, taking rides to the beach and
-            around town while a Tears for Fears greatest hits cassette provided
-            the soundtrack, remains one of those memories that has never faded.
-          </p>
-
-          <p>
             Over the years, I've come to appreciate that acquiring an
             exceptional automobile is about far more than purchasing
             transportation or a utilitarian object. It is about preserving
@@ -41,21 +34,6 @@ export default function FounderPage() {
             embodiment of dreams, memories, and emotion.
           </p>
 
-          <p>
-            Today's collector automobile market offers extraordinary
-            opportunities, but it also demands extraordinary discipline. While
-            information is abundant, true insight is rare. A beautiful
-            photograph cannot reveal deferred maintenance, and an enthusiastic
-            seller cannot replace objective due diligence.
-          </p>
-
-          <p>
-            Extraordinary automobiles deserve more than transactions.
-          </p>
-
-          <p>
-            They deserve thoughtful representation.
-          </p>
 
           <p>
             We do not sell inventory.
@@ -98,25 +76,6 @@ export default function FounderPage() {
           </p>
 
           <p>
-            Whether assisting a client in acquiring a first enthusiast
-            automobile or locating a once-in-a-lifetime collector car, my
-            approach remains the same.
-          </p>
-
-          <div className="founder-principles">
-            <p>Listen First.</p>
-            <p>Research Thoroughly.</p>
-            <p>Question Assumptions.</p>
-            <p>Trust but Verify.</p>
-          </div>
-
-          <p>
-            I believe trust is earned through preparation, honesty, and an
-            unwavering commitment to acting in the client's best interest. That
-            commitment extends well beyond the day an automobile is purchased.
-          </p>
-
-          <p>
             The relationships I hope to build are measured in years—not
             transactions.
           </p>
@@ -136,7 +95,7 @@ export default function FounderPage() {
           </p>
 
           <div className="founder-signature">
-            <p>Alan A. Rubino</p>
+            <p>Alan</p>
             <span>Founder and CEO · Georgetown Heritage Advisors</span>
           </div>
 

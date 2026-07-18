@@ -583,10 +583,12 @@ footer p {
   margin-bottom: 0;
 }
 
-.founder-signature {
-  margin-top: 90px;
-  padding-top: 55px;
-  border-top: 1px solid rgba(197, 164, 109, 0.22);
+.founder-signature p {
+  font-family: var(--font-signature), cursive;
+  font-size: 54px;
+  line-height: 1;
+  color: var(--gold);
+  margin: 0 0 8px;
 }
 
 .founder-copy .founder-closing {

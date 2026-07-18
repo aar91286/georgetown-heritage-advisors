@@ -46,7 +46,7 @@ export default function FounderPage() {
             />
 
             <div className="founder-details">
-              <p className="founder-name">Alan Rubino</p>
+              <p className="founder-name">Alan A. Rubino</p>
               <p className="founder-title">Founder</p>
               <p className="founder-company">
                 Georgetown Heritage
@@ -58,27 +58,13 @@ export default function FounderPage() {
 
           <article className="founder-copy">
             <p className="founder-opening">
-              I’ve had a lifelong passion for cars that corresponds with my
-              earliest memories.
-            </p>
-
-            <p>
-              I like to think this started with my father and his car. Seeing
-              his grey BMW in the driveway as a little boy, taking rides in it
-              to the beach and around town—as a Tears for Fears greatest-hits
-              cassette provided the background soundtrack—still hovers clearly
-              in my mind.
-            </p>
-
-            <p>
-              Over the years, I’ve come to appreciate that acquiring an
-              exceptional automobile is about far more than purchasing
-              transportation or a utilitarian item. It is about preserving
+             cquiring an
+              exceptional automobile is about preserving
               history, honoring engineering, becoming the next steward of
               something that deserves to be cared for, and finding a tangible
-              embodiment of dreams, memories, and emotions.
+              embodiment of dreams, memories, emotions.
             </p>
-
+ß
             <p>
               The best automobiles are not simply owned. They are entrusted.
               This philosophy became the foundation of Georgetown Heritage
@@ -94,8 +80,7 @@ export default function FounderPage() {
 
             <p>
               Today’s collector-car market offers extraordinary opportunities,
-              but it also demands extraordinary discipline. While information
-              is abundant, true insight is rare.
+              but it also demands extraordinary discipline.
             </p>
 
             <p>
@@ -104,10 +89,8 @@ export default function FounderPage() {
               Excitement alone should never substitute for careful judgment.
             </p>
 
-            <blockquote className="founder-pullquote founder-pullquote-short">
               <p>We do not sell inventory.</p>
               <span>We serve clients.</span>
-            </blockquote>
 
             <p>
               Our responsibility is to protect judgment, preserve confidence,
@@ -150,16 +133,6 @@ export default function FounderPage() {
             </blockquote>
 
             <p>
-              Never allow emotion to replace discipline—but ensure that passion
-              drives the journey.
-            </p>
-
-            <blockquote className="founder-pullquote">
-              <p>The objective is not simply to buy a car.</p>
-              <span>It is to buy the right car.</span>
-            </blockquote>
-
-            <p>
               I believe trust is earned through preparation, honesty, and an
               unwavering commitment to acting in the client’s best interest.
               That commitment extends beyond the day an automobile is
@@ -185,7 +158,7 @@ export default function FounderPage() {
             <div className="founder-signature">
               <p className="founder-closing">With gratitude,</p>
 
-              <p className="founder-signature-name">Alan Rubino</p>
+              <p className="founder-signature-name">Alan</p>
 
               <p className="founder-signature-title">
                 Founder
@@ -217,4 +190,11 @@ export default function FounderPage() {
       </section>
     </main>
   );
-}
+<div className="founder-buttons">
+  <a
+    className="primary-button"
+    href="/consultation#consultation-form"
+  >
+    Schedule a Consultation
+  </a>
+</div>}
